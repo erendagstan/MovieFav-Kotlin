@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sign_in">
+    <fragment
+        android:id="@+id/sign_in"
+        android:name="com.erendagistan.moviefav.view.sign_in"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_sign_in_to_libraryActivity"
+            app:destination="@id/libraryActivity" />
+        <action
+            android:id="@+id/action_sign_in_to_sign_up"
+            app:destination="@id/sign_up" />
+    </fragment>
+    <fragment
+        android:id="@+id/sign_up"
+        android:name="com.erendagistan.moviefav.view.sign_up"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_sign_up_to_libraryActivity"
+            app:destination="@id/libraryActivity" />
+        <action
+            android:id="@+id/action_sign_up_to_sign_in"
+            app:destination="@id/sign_in" />
+    </fragment>
+    <activity
+        android:id="@+id/libraryActivity"
+        android:name="com.erendagistan.moviefav.view.LibraryActivity"
+        android:label="activity_library"
+        tools:layout="@layout/activity_library" />
+</navigation>

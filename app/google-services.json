@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878751706453",
+    "project_id": "moviefavkotlin",
+    "storage_bucket": "moviefavkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878751706453:android:2573205175db713af4d3dc",
+        "android_client_info": {
+          "package_name": "com.erendagistan.moviefav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878751706453-9g8avcd4gufchh8ght1v0k4l720m6j97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzMW_ipgzSS9t3EFBbmo8VBsUoLPOWzGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878751706453-9g8avcd4gufchh8ght1v0k4l720m6j97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
